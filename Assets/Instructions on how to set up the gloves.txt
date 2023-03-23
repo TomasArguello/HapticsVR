@@ -1,0 +1,15 @@
+INSTRUCTIONS ON SETTING UP THE GLOVES
+First connect everything that needs to be connected. The linkbox, the wires, the Vive tracker, etc. 
+Then once everything is connected, make sure that the Vive tracker is actually connected. 
+Pair the Vive Tracker with SteamVR if needed. 
+Go to the Unity project, open it, then click on Window > SteamVR Input.
+Click on "Open Binding UI", which is normally on the lower right.
+It will open a SteamVR window, and will go to the controller select screen after a few seconds. 
+Select the Vive Tracker in Hand option.
+Then select the "Saved [Testing] haptic configuration for Vive Tracker in Hand" binding.
+Exit the SteamVR controller select window after that. 
+Then click "Save and generate" option in the lower left(?).
+After that, it should be good to go. 
+REMEMBER, check the "Controller (left)" and "Controller (right)" and see if the Transform component is moving 
+when the Editor is in Play mode. If it is not, change the Index variable of the "Steam VR_Tracked Object" script
+component until you see the hands in Play.
